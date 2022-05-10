@@ -13,6 +13,9 @@ function App() {
 
   return (
     <div className='App'>
+      <h1>University of Waterloo</h1>
+      <h2>Math Student Profiles</h2>
+
       <input 
         type="text" 
         placeholder='Search ...' 

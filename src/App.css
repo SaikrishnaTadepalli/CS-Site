@@ -7,9 +7,19 @@
 }
 
 .App input {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     width: 300px;
     height: 40px;
     padding-left: 10px;
+}
+
+.App h1 {
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+
+.App h2 {
+    margin-top: 0px;
+    padding: 0px;
 }
