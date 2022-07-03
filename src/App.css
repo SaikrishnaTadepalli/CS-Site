@@ -6,6 +6,15 @@
     flex-direction: column;
 }
 
+.bg {
+    background-image:url(../public/University_of_Waterloo_seal.svg.png);
+  backdrop-filter: blur(10px);
+  -webkit-filter: blur(10px);
+  background-repeat: no-repeat;
+  height: 100%;
+  filter: blur(10px);
+}
+
 .App input {
     margin-top: 30px;
     margin-bottom: 40px;
@@ -22,4 +31,11 @@
 .App h2 {
     margin-top: 0px;
     padding: 0px;
+}
+
+.student {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-left: 50px;
 }

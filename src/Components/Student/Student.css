@@ -1,14 +1,68 @@
-.studentDetails {
+.frontComponent {
   display: flex;
-  background-color: #242528;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  width: 52em;
-  border-radius: 2px;
-  border-color: rgb(149, 147, 147);
-  border-style: solid;
-  transition: 1;
+  justify-content: space-evenly;
+}
+
+.backComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  margin-bottom: 0.5px;
+  font-family: "Roboto";
+  color: white;
+}
+
+.studentBasicInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  align-self: center;
+}
+
+.studentName {
+  font-size: 20px;
+  text-align: center;
+}
+
+.termAndProgram {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.studentInfo {
+  height: 70%;
+  width: 80%;
+  align-self: center;
+}
+
+.icon {
+  width: 30px;
+  height: 25px;
+}
+
+.links {
+  display: flex;
+  margin-top: 30px;
+ justify-content: space-evenly;
+}
+
+.studentLink {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 85%;
+}
+
+.studentImg {
+  height: 100%;
+  margin-left: 0px;
+  width: 150px;
+  align-self: flex-start;
 }
 
 .studentDetails:hover {
@@ -16,6 +70,12 @@
   transform: scale(1.05);
 }
 
-a {
-  color: rgb(24, 197, 232);
+button {
+  background-color: rgb(26, 22, 22);
+  border: 5px solid pink;
+  border-radius: 10px;
+  margin-left: 12px;
+  margin-bottom: 16px;
+  height: 200px;
+  width: 400px;
 }

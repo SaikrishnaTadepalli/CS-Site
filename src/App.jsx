@@ -11,8 +11,9 @@ function App() {
     setSearch(event.target.value);
   }
 
-  return (
-    <div className='App'>
+  return (<>
+  <div className='bg'></div>
+    <div className='App' style = {{ filter: "blur(0px)"}}>
       <h1>University of Waterloo</h1>
       <h2>Math Student Profiles</h2>
 
@@ -21,7 +22,7 @@ function App() {
         placeholder='Search ...' 
         onChange={handleSearch} 
       />
-
+    <div className='student'>
       {
         DATA.filter((val) => {
           if (search === "") {
@@ -43,7 +44,9 @@ function App() {
           )
         })
       }
+      </div>
     </div>
+    </>
   );
 }
 
